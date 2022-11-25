@@ -1,0 +1,70 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+}
+li{
+display:inline;
+margin: 20px;
+position: relative;
+color: grey;
+
+}
+li:hover{
+    color: var(--color);
+    font-weight :bold;
+}
+
+.navbar-container .grow-list {
+    flex: 2;
+  }
+
+  .heading-text {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(49, 19, 80);
+  }
+button{
+    padding: 10px 40px;
+    margin: 3px 4px;
+    background:rgb(130, 40, 138);
+    border-radius: 15px;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    
+}
+.nav_btn {
+    display: block;
+    padding: 10px 30px;
+  margin: 4px 6px;
+  }
+  .banner-container{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5%;
+  padding-top: 5%;
+  }
+  .description{
+    color:grey;
+    font-size: 30px;
+  }
+  .xyz
+  {
+    background:rgb(103, 12, 103);
+    height:5rem;
+    width:15rem;
+    display: block;
+    padding: 5px 15px;
+  margin: 4px 6px;
+  font-size:medium;
+
+  }
+  .xyz:hover{
+    background:rgb(222, 45, 222);
+    font-weight: bold;
+  }
